@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T03:33:06.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="Bwn_eC3JE6j-VnxY-aMy" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T03:39:54.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JU8nRB39PeGM3eZrXjAs" version="21.6.1" type="github">
   <diagram name="第 1 页" id="ICEn_enINgpiXyk_72j_">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="je3bZQotpma4_9G8U86e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="je3bZQotpma4_9G8U86e-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="je3bZQotpma4_9G8U86e-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-3" value="前端页面" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-4" value="service层" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-5" value="api层" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-6" value="MySQL" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-9" value="" style="endArrow=blockThin;endFill=1;endSize=9;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="140" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-10" value="1、发起存储请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="118" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="420" y="148" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="10" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="je3bZQotpma4_9G8U86e-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="750" y="148" width="10" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
