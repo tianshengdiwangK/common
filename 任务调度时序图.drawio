@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T11:47:00.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vZ3VMVJcEqgPh7fdNzk3" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T11:55:12.707Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Oe-nKtVhw8-OKRgT1I15" version="21.6.1" type="github">
   <diagram name="第 1 页" id="FbTjKED93hG7GuQT6457">
-    <mxGraphModel dx="1193" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,36 @@
         </mxCell>
         <mxCell id="Cw4ZLnLLsE0A95PP1URh-44" value="开启定时器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="338" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cw4ZLnLLsE0A95PP1URh-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cw4ZLnLLsE0A95PP1URh-47" value="开始运行任务" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="Cw4ZLnLLsE0A95PP1URh-46" parent="1">
+          <mxGeometry x="0.5932" relative="1" as="geometry">
+            <mxPoint x="530" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cw4ZLnLLsE0A95PP1URh-48" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="Cw4ZLnLLsE0A95PP1URh-46" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cw4ZLnLLsE0A95PP1URh-50" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="Cw4ZLnLLsE0A95PP1URh-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="410" as="sourcePoint" />
+            <mxPoint x="660" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="410" />
+              <mxPoint x="640" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cw4ZLnLLsE0A95PP1URh-51" value="获取锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="408" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
