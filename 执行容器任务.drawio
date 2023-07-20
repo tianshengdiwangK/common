@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T02:31:25.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="elldNWJubVwfwRrY7ptg" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T02:33:36.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BaT4AcCxqli7tfZvtDVb" version="21.6.2" type="github">
   <diagram name="第 1 页" id="8J0nVcGlbO7vgvr5VN-F">
-    <mxGraphModel dx="1781" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1736" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,17 +73,17 @@
         <mxCell id="1S54bPn1rzjwZ6_FK3ry-20" value="7、执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="410" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1S54bPn1rzjwZ6_FK3ry-22" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;startArrow=block;startFill=1;" parent="1" target="1S54bPn1rzjwZ6_FK3ry-9" edge="1">
+        <mxCell id="1S54bPn1rzjwZ6_FK3ry-22" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;startArrow=block;startFill=1;" parent="1" target="1S54bPn1rzjwZ6_FK3ry-9" edge="1" source="1S54bPn1rzjwZ6_FK3ry-21">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="350" y="540" as="sourcePoint" />
-            <mxPoint x="490" y="540" as="targetPoint" />
+            <mxPoint x="352.5" y="530" as="sourcePoint" />
+            <mxPoint x="497.5" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1S54bPn1rzjwZ6_FK3ry-23" value="9、发送任务消息到kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="339" y="500" width="150" height="30" as="geometry" />
+          <mxGeometry x="339" y="490" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1S54bPn1rzjwZ6_FK3ry-29" value="8、销毁容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="560" y="540" width="90" height="30" as="geometry" />
+        <mxCell id="1S54bPn1rzjwZ6_FK3ry-29" value="11、销毁容器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="555" y="540" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pT03rczeTe11oYN75Epe-1" value="Mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="140" y="50" width="100" height="550" as="geometry" />
@@ -131,6 +131,19 @@
             <mxPoint x="250" y="560" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jEY6A5Sn5nsPmeX-0y3A-1" value="" style="endArrow=block;endFill=1;endSize=6;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="479.99666666666667" as="sourcePoint" />
+            <mxPoint x="505" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="480" />
+              <mxPoint x="560" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jEY6A5Sn5nsPmeX-0y3A-2" value="8、查询容器状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="478" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
