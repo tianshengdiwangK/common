@@ -1,9 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T09:17:02.322Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="ZEpy_Cp6famF3gWUrV8r" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T09:17:52.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bJ9SPG3nyxYf8sZZU61m" version="21.6.5" type="github">
   <diagram name="第 1 页" id="vKrKG7_EkXcTTwIoFyTx">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;告警&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9OcKqpaFnVQorLDPfMOq-5" target="9OcKqpaFnVQorLDPfMOq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9OcKqpaFnVQorLDPfMOq-4">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-5" value="告警监测" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9OcKqpaFnVQorLDPfMOq-2" target="9OcKqpaFnVQorLDPfMOq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9OcKqpaFnVQorLDPfMOq-7" value="告警查看" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
